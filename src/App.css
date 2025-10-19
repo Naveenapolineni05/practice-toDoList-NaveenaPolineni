@@ -1,0 +1,32 @@
+/* src/App.css */
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  list-style-type: square;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.todo-list li:hover {
+  background-color: #d0e6f7;
+  cursor: pointer;
+}
